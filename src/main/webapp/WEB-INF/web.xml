@@ -1,0 +1,68 @@
+<web-app>
+	<servlet>
+		<servlet-name> sample </servlet-name>
+		<servlet-class> UserSignUp </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> sample </servlet-name>
+		<url-pattern> /UserSign </url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name> sample1 </servlet-name>
+		<servlet-class> UserLogIn </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> sample1 </servlet-name>
+		<url-pattern> /UserLog </url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name> sample2 </servlet-name>
+		<servlet-class> OfficialLogIn </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> sample2 </servlet-name>
+		<url-pattern> /OfficialLog </url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name> sample3 </servlet-name>
+		<servlet-class> AfterLogIn </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> sample3 </servlet-name>
+		<url-pattern> /AddData </url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name> sample4 </servlet-name>
+		<servlet-class> ViewData </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> sample4 </servlet-name>
+		<url-pattern> /ViewData </url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name> sample5 </servlet-name>
+		<servlet-class> Delete  </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> sample5 </servlet-name>
+		<url-pattern> /Delete1 </url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name> sample6 </servlet-name>
+		<servlet-class> LogOut  </servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> sample6 </servlet-name>
+		<url-pattern> /LogOut </url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file> First.html </welcome-file>
+	</welcome-file-list>
+</web-app>
